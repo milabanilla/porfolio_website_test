@@ -1,0 +1,82 @@
+:root {
+  --primary-color: rgb(144, 88, 189);
+  --font-color: #fff;
+  --box-shadow:0px 2px 8px 0px rgba(99, 99, 99, 0.3) ;
+  --border:1px solid var(--primary-color);
+  --padding:10px;
+  --border-radius:5px;
+
+  
+}
+body {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+
+}
+h1{
+  font-size: 30px;
+}
+h2{
+  font-size: 50px;
+}
+.link {
+  display: block;
+  
+}
+.contact-button{
+  font-weight: bold;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: var(--padding);
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+
+}
+.contact-button a{
+color:rgb(255, 255, 255);
+}
+.about-button {
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+  font-weight: bold;
+  border: var(--border);
+  background-color:rgb(255, 255, 255);
+  box-shadow: var(--box-shadow);
+}
+.link a {
+  text-decoration: none;
+}
+
+.text-container{
+display: flex;
+flex: 1;
+padding: 20px;
+margin: 20px;
+}
+.column-one{
+  background-color: antiquewhite;
+  font-size: 18px;
+  padding: 0 20px;
+  width:500px;
+  line-height: 50px;
+
+}
+.filler{
+  width:80%;
+}
+.column-two{
+  font-size: 18px;
+  padding: 0 20px;
+  line-height: 50px;
+  width: 500px;
+  background-color: antiquewhite;
+}
+.contacInfo{
+  display: block;
+  margin:0 auto;
+}
+#contact{
+  font-size: 40px;
+}
