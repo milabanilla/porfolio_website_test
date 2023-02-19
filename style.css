@@ -22,22 +22,41 @@ h2{
   font-size: 50px;
 }
 .link {
-  display: block;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
   
 }
+.back-button{
+  margin-top: 20px;
+    font-weight: bold;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: var(--padding);
+    background-color: var(--primary-color);
+    box-shadow: var(--box-shadow);
+  }
+.back-button a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
 .contact-button{
+  margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
   font-weight: bold;
   border: var(--border);
   border-radius: var(--border-radius);
   padding: var(--padding);
   background-color: var(--primary-color);
   box-shadow: var(--box-shadow);
-
 }
 .contact-button a{
 color:rgb(255, 255, 255);
 }
 .about-button {
+  
   padding: var(--padding);
   border-radius: var(--border-radius);
   font-weight: bold;
@@ -48,37 +67,37 @@ color:rgb(255, 255, 255);
 .link a {
   text-decoration: none;
 }
+.about-header h1{
+  font-size: 50px;
+}
+.paragraphs-container{
+  display: flex;
+  margin: 40px 0;
+  }
+.paragraphs-container p{
+    margin: 35px ;
+    text-align: center;
+    line-height: 28px;
+    padding: 40px 20px;
+    border-radius: var(--border-radius);
+    background-color:rgba(198, 186, 237, 0.4);
+    }
 
-.text-container{
-display: flex;
-flex: 1;
-padding: 20px;
-margin: 20px;
-}
-.column-one{
-  font-size: 18px;
-  padding: 0 20px;
-  line-height: 50px;
-  width: 500px;
-  border-radius: var(--border-radius);
-  background-color: rgba(232, 222, 209,0.4);  
-
-}
-.filler{
-  width:80%;
-}
-.column-two{
-  font-size: 18px;
-  padding: 0 20px;
-  line-height: 50px;
-  width: 500px;
-  border-radius: var(--border-radius);
-  background-color: rgba(232, 222, 209,0.4);
-}
 .contacInfo{
   display: block;
   margin:0 auto;
 }
+
+.email{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 25px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
 #contact{
   font-size: 40px;
+  margin: 10px;
 }
