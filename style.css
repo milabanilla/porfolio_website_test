@@ -40,33 +40,44 @@ h2{
     text-decoration: none;
     color:rgb(255, 255, 255);
 }
-.contact-button{
-  margin: 20px;
-    border-radius: 4px;
-    padding: 20px 15px;
-    text-decoration: none;
-  font-weight: bold;
-  border: var(--border);
-  border-radius: var(--border-radius);
-  padding: var(--padding);
-  background-color: var(--primary-color);
-  box-shadow: var(--box-shadow);
-}
-.contact-button a{
-color:rgb(255, 255, 255);
-}
-.about-button {
-  
-  padding: var(--padding);
-  border-radius: var(--border-radius);
-  font-weight: bold;
-  border: var(--border);
-  background-color:rgb(255, 255, 255);
-  box-shadow: var(--box-shadow);
+.link{
+  display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 .link a {
   text-decoration: none;
 }
+.link a:visited{
+  color: inherit;
+}
+.contact-button{
+  margin: 20px;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+.contact-button a, 
+.contact-button a:visited{
+color:rgb(255, 255, 255);
+}
+
+.about-button {
+  margin: 20px;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  background-color: var(--font-color);
+  box-shadow: var(--box-shadow);
+}
+
 .about-header h1{
   font-size: 50px;
 }
