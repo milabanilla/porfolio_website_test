@@ -15,6 +15,9 @@ body {
   max-width: 800px;
 
 }
+h1,h2{
+  margin: 0;
+}
 h1{
   font-size: 30px;
 }
@@ -63,7 +66,7 @@ h2{
   box-shadow: var(--box-shadow);
 }
 .contact-button a, 
-.contact-button a:visited{
+.contact-button a:visited,.contact-button a:active{
 color:rgb(255, 255, 255);
 }
 
