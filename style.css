@@ -5,31 +5,68 @@
   --border:1px solid var(--primary-color);
   --padding:10px;
   --border-radius:5px;
+  
 
   
 }
 body {
+  padding-top: 60px;
   text-align: center;
   display: block;
   margin: 0 auto;
   max-width: 800px;
 
 }
-h1,h2{
+
+h1,h2,h3{
   margin: 0;
 }
 h1{
-  font-size: 30px;
+  color:var(--primary-color);
+  font-style: italic;
+  font-size: 40px;
 }
 h2{
-  font-size: 50px;
+  font-size: 30px;
 }
-.link {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-  
+h3{
+  font-size: 30px;
 }
+p{
+  padding: 20px 20px;
+}
+
+.launch-link{
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 500ms;
+
+}
+.launch-link:hover{
+  font-size: 20px;
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+.images{
+  transition: transform .70s;
+}
+.images:hover{
+transform: scale(1.2);
+}
+.center_text{
+text-align: center!important
+}
+.container-header{
+padding-top: 20px;
+padding-bottom: 100px;
+}
+.mb-5 {
+  margin-top: 20px;
+  margin-bottom: 3rem;
+}
+
 .back-button{
   margin-top: 20px;
     font-weight: bold;
@@ -49,14 +86,10 @@ h2{
     justify-content: center;
     margin-bottom: 20px;
 }
-.link a {
-  text-decoration: none;
-}
-.link a:visited{
-  color: inherit;
-}
-.contact-button{
+
+.about-button{
   margin: 20px;
+  color:white;
   padding: 20px 15px;
   text-decoration: none;
   font-weight: bold;
@@ -65,13 +98,9 @@ h2{
   background-color: var(--primary-color);
   box-shadow: var(--box-shadow);
 }
-.contact-button a, 
-.contact-button a:visited,.contact-button a:active{
-color:rgb(255, 255, 255);
-}
-
-.about-button {
+.contact-button {
   margin: 20px;
+  color:var(--primary-color);
   padding: 20px 15px;
   text-decoration: none;
   font-weight: bold;
@@ -80,7 +109,9 @@ color:rgb(255, 255, 255);
   background-color: var(--font-color);
   box-shadow: var(--box-shadow);
 }
-
+.paragraphs-container p{
+  font-size: 18px;
+}
 .about-header h1{
   font-size: 50px;
 }
@@ -100,6 +131,7 @@ color:rgb(255, 255, 255);
 .contacInfo{
   display: block;
   margin:0 auto;
+  padding-top: 20px;
 }
 
 .email{
