@@ -63,10 +63,12 @@ padding-top: 20px;
 padding-bottom: 100px;
 }
 .mb-5 {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 3rem;
 }
-
+.container{
+  padding-bottom: 20px;
+}
 .back-button{
   margin-top: 20px;
     font-weight: bold;
