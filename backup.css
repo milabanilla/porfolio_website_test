@@ -5,7 +5,9 @@
   --border:1px solid var(--primary-color);
   --padding:10px;
   --border-radius:5px;
+  
 
+  
 }
 body {
   padding-top: 60px;
@@ -25,23 +27,19 @@ h1{
   font-size: 40px;
 }
 h2{
-  color: #545454;
+  color: #3e3e3e;
   margin-top: 30px;
   font-size: 30px;
 }
 h3{
-  color: #545454;
+  color: #3e3e3e;
   font-size: 30px;
 }
 p{
-  text-align: justify;
-  color: #545454;
+  color: #3e3e3e;
   padding: 20px 20px;
 }
 .filler-text{
-  color: #545454;
-  text-align: justify;
-  padding-top: 20px;
   font-size: 25px;
 }
 .launch-link{
@@ -71,7 +69,7 @@ padding-top: 20px;
 padding-bottom: 100px;
 }
 .mb-5 {
-  margin-top: 80px;
+  margin-top: 40px;
   margin-bottom: 3rem;
 }
 .container{
@@ -85,9 +83,13 @@ padding-bottom: 100px;
     margin-bottom: 20px;
 }
 .container-row{
-  width: 300px;
+  max-width: 500px;
 }
-
+.row {
+  width: 400px;
+  display: block;
+  display: inline;
+}
 .about-button{
   margin: 20px;
   color:white;
@@ -122,8 +124,7 @@ padding-bottom: 100px;
   }
 .paragraphs-container p{
     margin: 35px ;
-    color: #545454;
-    text-align: justify;    
+    text-align: center;
     line-height: 28px;
     padding: 40px 20px;
     border-radius: var(--border-radius);
@@ -190,13 +191,6 @@ padding-bottom: 100px;
     transition: all 500ms;
 
   }
-  .row{
-    padding: 30px;
-  }
-  .box{
-    border: #545454 1px solid;
-    border-radius: var(--border-radius);
-  }
   .launch-link:hover{
     font-size: 20px;
     margin: 20px;
@@ -211,12 +205,10 @@ padding-bottom: 100px;
     text-decoration: none;
     transform: scale(1);
   }
+  /*trying to make it into a column*/
 
   .container-row{
-    width: 80%;
-  }
-  .container-header h1{
-    text-align: center;
+    width: 600px;
   }
   .app_images{
     width: 70%;
@@ -225,9 +217,6 @@ padding-bottom: 100px;
     display: block;
     margin: 0 auto;
    
-  }
-  .paragraphs-container{
-  display: block;
   }
   
 }
