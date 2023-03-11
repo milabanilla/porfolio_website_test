@@ -135,7 +135,9 @@ padding-bottom: 100px;
   margin:0 auto;
   padding-top: 20px;
 }
-
+.nav-link .active{
+  color: #545454;
+}
 .email{
   text-decoration: none;
   display: flex;
@@ -193,6 +195,7 @@ padding-bottom: 100px;
   .row{
     padding: 30px;
   }
+  
   .box{
     border: #545454 1px solid;
     border-radius: var(--border-radius);
